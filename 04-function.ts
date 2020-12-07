@@ -70,5 +70,5 @@ let h : Array<any> = [ 2, "bonjour", {}]
 
 let i : any = { v : 2 , a :[] }
 
-
 // let j <T> type générique 
+// 15 min => rdv 11h20 
