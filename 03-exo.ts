@@ -86,3 +86,4 @@ let liste5Quatre:Achat[] = [
 ];
 
 // fin correction
+// 04-function.ts
