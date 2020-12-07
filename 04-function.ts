@@ -76,3 +76,5 @@ let i : any = { v : 2 , a :[] }
 // le typage 
 
 // => version papier dans le Moodle 
+
+// 06-class.ts
