@@ -30,3 +30,5 @@ a();
 // attention vous compilez des fichiers .ts et non des fichiers .js !!! 
 
 // error TS6504: File '11-transpiler.js' is a JavaScript file. Did you mean to enable the 'allowJs' option?
+
+// 12-tp.ts

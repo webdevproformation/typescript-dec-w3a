@@ -1,0 +1,1 @@
+// 13-class-interface.ts
