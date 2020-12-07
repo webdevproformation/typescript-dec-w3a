@@ -2,10 +2,11 @@
 
 class Product {
     private _name: string; // privé dans la classe actuelle
-    private _marque : string ;
+    private _marque : (string|number) ;
 
-    constructor(name: string) {
+    constructor(name: string , marque : (string|number)) {
         this.name = name; // setter assigne une valeur à l'attribut _name
+        this.marque = marque ;
     }
 
     // setter
@@ -18,6 +19,13 @@ class Product {
         return this._name;
     }
 
+    set marque( marque : (string|number) ) {
+        this._marque  = marque ;
+    }
+
+    get marque () :(string|number){
+        return this._marque ;
+    }
 }
 
 // dans la class Product 
@@ -27,3 +35,7 @@ class Product {
 // 3 utilisez la class Product avec les valeurs suivantes 
 // "Btwin" , "Decathlon"
 // "Peugeot" , 206
+
+let produit1 = new Product( "Btwin" , "Decathlon" );
+
+let produit2 = new Product("Peugeot" , 206)
