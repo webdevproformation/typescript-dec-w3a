@@ -24,3 +24,5 @@ data.forEach( (item : Produit) => {
 
 // le fichier et ceux qui sont importés sont automatiquement compilés 
 // exemple juste après la pause rdv 16h15 @ toutes suite !!
+
+// 21-conf.ts
