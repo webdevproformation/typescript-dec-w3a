@@ -71,4 +71,23 @@ let o : (string|boolean)[] = ["a" , "b" , false ];
 // : type => on doit l'utiliser que dans des fichiers .ts 
 // pas dans des fichiers .js 
 
-// objet lit
+// objets litteraux :
+// 1ère manière de typer
+let q : Object  = {
+    nom : "Béatrice",
+    age : 12
+};
+
+// 2ème manière de typer un objet litéral 
+// créer une interface => décrire en détail les différentes propriétés de l'objet litéral 
+// n'existe que en ts
+// créer une interface => conseil (mettre la première lettre en majuscule)
+interface Person{
+    nom : string ,
+    age : number
+};
+
+let r : Person = {
+    nom : "Charles",
+    age : 23
+}
