@@ -9,3 +9,5 @@ console.log(generate( "A", "b"))  ; // "Ab"
 console.log(generate( 1 , "a")) ;  //1a
 
 // tsc 19-exo.ts && node 19-exo.js
+
+// 20-module.ts
