@@ -29,3 +29,5 @@ class Guitar extends Music{
 let g = new Guitar();
 g.play(); // "play music"
 g.makeSound("valeur") ; //  "retour sous forme de string"
+
+// 11-transpiler.ts 
