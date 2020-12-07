@@ -56,3 +56,19 @@ let e: Vehicule = {
     proprietaire : "Charles"
 }
 
+
+// en javascript il est possible de créer une variable 
+
+let f ; // en javascript => undefined 
+
+let g : any ; // n'importe quelle type 
+// essayer de l'utiliser le moins possible 
+g = 2 ;
+g = "bonjour";
+
+let h : Array<any> = [ 2, "bonjour", {}]
+
+let i : any = { v : 2 , a :[] }
+
+
+// let j <T> type générique 
