@@ -6,40 +6,20 @@
 // interface => typescript
 // variable : type
 // swim() : string => créer une fonction qui n'a pas de paramètres et qui retourne une chaine de caractère 
-
-interface Duck{
-    name : string ;
-    swim(): string; 
-}
-
 // implements => disponible que en typescript 
-
 // 1 créer une class qui implémente l'interface Duck 
 // choisir le nom de la class que vous voulez ! 
-class Oiseau implements Duck{
-    // il faut obligatoirement que les membres de cette interface soient présents dans la class  
-    name : string ;
-
-    constructor(name :string){
-        this.name = name
+var Oiseau = /** @class */ (function () {
+    function Oiseau(name) {
+        this.name = name;
     }
-
-    swim() :string{
-        return `${this.name} est en train de nager`;
+    Oiseau.prototype.swim = function () {
+        return this.name + " est en train de nager";
         // template string
-    }
-}
-
+    };
+    return Oiseau;
+}());
 // 2 ne pas hésiter à utiliser la class, la méthode swim
-let o = new Oiseau( "Donald Duck" );
+var o = new Oiseau("Donald Duck");
 console.log(o.swim());
-
 // 3 transformer votre fichier ts en js en utilisant les lignes de commande 
-
-// installer le transpiler logiciel ts => js 
-// npm i -g typescript
-// tsc --version // Version 4.1.2
-
-
-// transformer mon fichier ts => js et en suite executer mon fichier js 
-// tsc 14-exo.ts && node 14-exo.js
