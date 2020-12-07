@@ -33,6 +33,33 @@ pour faciliter le suivi du cours =>
 - github que je vais créer dans lequel je vais partager 
 le code / cas pratiques / corrigés / questions
 
+-------
+
+pour aujourd'hui le sujet => Typescript 
+(sur ensemble de Javacript) 
+
+c'est ce langage qui est utilisé pour créer des projets Angular
+
+1ère journée Typescript 
+
+-------
+
+1 pouvez créer un dossier dans le bureau de votre ordinateur
+dont le nom est ts 
+2 lancer votre IDE => Visual Studio 
+3 Fichier > Ouvrir Dossier > sélectionner le dossier ts
+(je vais faire une petit manipulation pour partager mon dossier sur github => jetez un coup d'oeil )
+
+
+=> mes notes de cours sont disponibles à l'adresse suivante :
+
+https://github.com/webdevproformation/typescript-dec-w3a
+
+
+des questions ??? avant de commencer ?? 
+
+
+
 
 
 
