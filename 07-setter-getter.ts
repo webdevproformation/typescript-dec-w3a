@@ -50,4 +50,4 @@ let b = new B(2);
 b.attr ;
 // b.getAttr()
 
-
+// créer un nouveau fichier 08-exo.ts
