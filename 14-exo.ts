@@ -43,3 +43,6 @@ console.log(o.swim());
 
 // transformer mon fichier ts => js et en suite executer mon fichier js 
 // tsc 14-exo.ts && node 14-exo.js
+
+
+// créer un nouveau fichier 15-exo.ts
