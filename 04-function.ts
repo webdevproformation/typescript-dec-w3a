@@ -72,3 +72,7 @@ let i : any = { v : 2 , a :[] }
 
 // let j <T> type générique 
 // 15 min => rdv 11h20 
+
+// le typage 
+
+// => version papier dans le Moodle 
