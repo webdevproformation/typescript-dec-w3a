@@ -21,3 +21,23 @@ console.log(agregator(["1","2","3"] , ["a","b","c"]))
 console.log(agregator([1,2], [3,4]));
 
 // tsc 18-type-generique.ts && node 18-type-generique.js
+
+// créer un nouveau fichier 19-exo.ts 
+
+// ce fichier contient une fonction 
+// generate qui est de type générique
+// elle a deux paramètres 
+// param1 type générique
+// param2 type générérique
+// le retour est générique
+
+// dans cette fonction une seule instruction
+// param1 + param2
+
+// utiliser la fonction generate avec les arguments suivants
+
+// 1 , 2
+// "A", "b"
+// 1 et a
+
+//afficher le résultat de chaque exécution de fonction dans la console
