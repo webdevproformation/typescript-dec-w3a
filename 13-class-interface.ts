@@ -27,7 +27,7 @@ class PanierAchat implements Panier{
 
     private autreAttribut : boolean ;
 
-    methode(){}
+    methode() :void {}
 }
 
 // 
