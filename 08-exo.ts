@@ -38,4 +38,6 @@ class Product {
 
 let produit1 = new Product( "Btwin" , "Decathlon" );
 
-let produit2 = new Product("Peugeot" , 206)
+let produit2 = new Product("Peugeot" , 206);
+
+// 09-class-abstraite.ts
