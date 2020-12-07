@@ -1,0 +1,27 @@
+je vais vous partager un dossier 11 Card
+
+un fichier de config
+dossier src 
+    App.ts // vide => à remplir
+    Product.ts // une class Product avec deux attributs _ref / _option
+    sous dossier data
+        MockProducts.ts 
+            plusieurs choses 
+
+1 importer dans le fichier App.ts
+    le fichier Product.ts
+    le fichier  MockProducts.ts  
+
+// 2 créer une variable let produits: Array<Product<Details,Delivery>> = []
+
+// 3 remplir le tableau let produits: des valeurs qui sont stockées dans le fichier MockProducts.ts  
+
+// 4 parcourir chacun des élement de produits et filter( ) uniquement ceux dont la valeur option  === "special"  et les afficher dans la console 
+
+// 5 compiler tout ce projet en js (tsc) 
+// et afficher les résultats dans la console 
+
+
+
+
+
