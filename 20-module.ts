@@ -23,3 +23,4 @@ data.forEach( (item : Produit) => {
 // tsc 20-module.ts && node 20-module.js 
 
 // le fichier et ceux qui sont importés sont automatiquement compilés 
+// exemple juste après la pause rdv 16h15 @ toutes suite !!
