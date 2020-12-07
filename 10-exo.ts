@@ -2,7 +2,7 @@
 
 abstract class Music {
     protected _instrument: string = 'nothing';
-    abstract makeSound(param):string;
+    abstract makeSound(param:string):string;
 
     get instrument():string{
         return this._instrument;
@@ -17,4 +17,15 @@ abstract class Music {
 // Guitar 
 // implémenter cette class enfant 
 
+class Guitar extends Music{
+    // il faut implémenter les méthodes abstraites du parent
+    makeSound(param:string){
+        return `retour sous forme de string - ${param}`;
+    }
+}
+
 // 2 et utiliser les méthodes makeSound() et play() de la class Guitar
+
+let g = new Guitar();
+g.play(); // "play music"
+g.makeSound("valeur") ; //  "retour sous forme de string"
