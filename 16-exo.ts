@@ -22,3 +22,5 @@ recettes.forEach( (item : Recette) => {
 
 // compiler et l'exécuter
 // tsc 16-exo.ts && node 16-exo.js
+
+// 18-type-generique.ts
