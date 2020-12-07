@@ -24,7 +24,6 @@ class Product {
 // 1 créer le setter et le getter pour l'attribut _marque
 // 2 modifier la constructeur de la class pour que l'on puisse attribuer la valeur de marque des que l'on instancie la class 
 
-
 // 3 utilisez la class Product avec les valeurs suivantes 
 // "Btwin" , "Decathlon"
 // "Peugeot" , 206
