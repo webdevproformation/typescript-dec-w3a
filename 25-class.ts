@@ -30,3 +30,5 @@ console.log(j3);
 // tsc 25-class.ts && node 25-class.js
 
 // https://github.com/webdevproformation/typescript-dec-w3a
+
+// 26-decorateur.ts
