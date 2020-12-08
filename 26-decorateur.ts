@@ -54,3 +54,6 @@ console.log(a.hello());
 
 // tsc 26-decorateur.ts --experimentalDecorators true --target es5 && node 26-decorateur.js
 // modifier les class sans toucher leur code 
+
+
+// créer un nouveau fichier 27-decorateur-fin.ts
